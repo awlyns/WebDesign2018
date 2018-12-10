@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hotel Transylvania </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+          <div class="container"> 
+          
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+              data-target="#bs-example-navbar-collapse-1"> 
+              <span class="sr-only">Toggle navigation</span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+            </button>
+            </div>
+
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#features" class="page-scroll">Our Rooms</a></li>
+          <li><a href="#about" class="page-scroll">About Us</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+   <ul class="nav navbar-nav navbar-right">
+    <li data-toggle="modal" data-target="#mydaftar"><a href="#"> Reserve </a></li>
+    <li data-toggle="modal" data-target="#mylogin"><a href="#"> Login </a></li>
+   </ul>
+  </div>
+</ul>
+</div>
+ </nav>
+<!-- Modal daftar -->
+<div id="mydaftar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Booking Form</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+     <div class="form-group">
+      <label for="name">Fullname</label>
+      <input type="text" class="form-control" id="Fullname" placeholder="fullname">
+    </div>
+    <div class="form-group">
+      <label for="no">Identity Number</label>
+      <input type="text" class="form-control" id="identitynumber" placeholder="identitynumber">
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" class="form-control" id="email" placeholder="email">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="text" class="form-control" id="phone" placeholder="phone">
+    </div>
+    <div class="form-group"></div>
+            <label for="room"> Room Type <br></label>
+            <select class="form-control">
+                <option>President Suites</option>
+                <option>Family Room</option>
+                <option>Teens Room</option>
+                </select>
+          <br>
+    <div class="form-group">
+            <label for="indate">Check In Date</label>
+            <input type="date" class="form-control" id="checkin" placeholder="dd/mm/yyyy">
+          </div>
+          <div class="form-group">
+                <label for="outdate">Check Out Date</label>
+                <input type="date" class="form-control" id="checkout" placeholder="dd/mm/yyyy">
+              </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal daftar -->
+
+<!-- Modal login -->
+<div id="mylogin" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login as Admin</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Username</label>
+      <input type="text" class="form-control" id="username" placeholder="Username">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+  </form>
+      </div>
+      <div class="modal-footer">
+       <button type="button" class="btn btn-success" data-dismiss="modal">Login</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header id="header">
+        <div class="intro">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="intro-text">
+                  <h1> Hotel Transylvania </h1>
+                  <p> Romania, Italy </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div id="features" class="text-center">
+            <div class="container">
+              <div class="section-title">
+                  <h2> Our Rooms</h2>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <div class="features-item">
+                    <h3> President Suites </h3>
+                    <img src="../Transylvania/img/OurRooms/PresidentialSuite.jpg" class="img-responsive" alt="">
+                    <p> In this room, we provide the best facilities that will be offered to all comers who will stay overnight and rest with us.</p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="features-item">
+                    <h3> Family Room </h3>
+                    <img src="../Transylvania/img/OurRooms/FamilyRoom.jpg" class="img-responsive" alt="">
+                    <p>This room is suitable for those of you who visit with your beloved family. Because, we provide a large enough space for families.</p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="features-item">
+                    <h3>Teens Room</h3>
+                    <img src="../Transylvania/img/OurRooms/KidsRoom.jpg" class="img-responsive" alt="">
+                    <p>Suitable for teens who are on vacation with their peers. Because we will offer cool facilities for visitors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="about">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 col-md-6 about-img"> </div>
+                <div class="col-xs-12 col-md-3 col-md-offset-1">
+                  <div class="about-text">
+                    <div class="section-title">
+                      <h2>About Us</h2>
+                    </div>
+                    <p>An exquisite accommodation for your business, leisure, and authentic traditional dining experiences nestled in Romania downtown area.</p>
+                    <p>Transylvania is a classic city resort in the heart of the city. It incorporates a charming garden with mature trees and waterways to calm the senses amidst the hustle and bustle of downtown Romania.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="gallery">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-6 col-md-3">
+                  <div class="gallery-item"> <img src="../Transylvania/img/gallery/satu.jpg" class="img-responsive" alt=""></div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <div class="gallery-item"> <img src="../Transylvania/img/gallery/dua.jpg" class="img-responsive" alt=""></div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <div class="gallery-item"> <img src="../Transylvania/img/gallery/tiga.jpg" class="img-responsive" alt=""></div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                  <div class="gallery-item"> <img src="../Transylvania/img/gallery/empat.jpg" class="img-responsive" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="contact" class="text-center">
+            <div class="container text-center">
+              <div class="col-md-4">
+                <h3>Call / Phone </h3>
+                <div class="contact-item">
+                  <p>08138965081</p>
+                  <p>(887) 654-3210</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h3>Address</h3>
+                <div class="contact-item">
+                  <p>4321 Italy St,</p>
+                  <p>Romania, CA 12345</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h3> Other Social Media</h3>
+                <div class="contact-item">
+                  <p>instagram: transylaniahotel</p>
+                  <p>email: transylvania@hotmail.org</p>
+                </div>
+              </div>
+            </div>
+          </body>
+          
+          <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+          <script type="text/javascript" src="js/bootstrap.js"></script> 
+          <script type="text/javascript" src="js/SmoothScroll.js"></script> 
+          <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+          <script type="text/javascript" src="js/contact_me.js"></script> 
+          <script type="text/javascript" src="js/main.js"></script>
+<!-- End Modal Login -->
+</body>
+</html>
